@@ -1,4 +1,11 @@
-SDSLayerByName
+SDSCardsFireProgress
 ==============
 
-A category defining a "name" property for CALayers that can be used like UIView's tag property to retrieve it later.
+A UIView derived class implementing an animated progress indicator like the one used in AppsFire.
+
+Example of use:
+
+    self.progressView = [[[SDSCardsFireProgressView alloc] initWithImages:[NSArray arrayWithObjects:@"image1", @"image2", @"image3", nil]] autorelease];
+    self.progressView.center = self.view.center;
+    [self.view addSubview:self.progressView];
+    [self.progressView start];
