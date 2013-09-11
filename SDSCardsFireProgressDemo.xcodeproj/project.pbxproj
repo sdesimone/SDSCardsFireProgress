@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49BCD4BA17E0DBD300DBF30E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BCD4B917E0DBD300DBF30E /* UIKit.framework */; };
+		49BCD4BC17E0DBD300DBF30E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BCD4BB17E0DBD300DBF30E /* Foundation.framework */; };
+		49BCD4BE17E0DBD300DBF30E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BCD4BD17E0DBD300DBF30E /* CoreGraphics.framework */; };
+		49BCD4E117E0DC0C00DBF30E /* CALayer+SDSLayerByName.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BCD4E017E0DC0C00DBF30E /* CALayer+SDSLayerByName.m */; };
+		49BCD4E317E0DC2A00DBF30E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BCD4E217E0DC2A00DBF30E /* QuartzCore.framework */; };
+		49BCD50917E0E77F00DBF30E /* image1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49BCD50617E0E77F00DBF30E /* image1@2x.png */; };
+		49BCD50A17E0E77F00DBF30E /* image2Red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49BCD50717E0E77F00DBF30E /* image2Red@2x.png */; };
+		49BCD50B17E0E77F00DBF30E /* image3Yellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49BCD50817E0E77F00DBF30E /* image3Yellow@2x.png */; };
+		49BCD50E17E0E98C00DBF30E /* SDSCardsFireProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BCD50D17E0E98C00DBF30E /* SDSCardsFireProgressView.m */; };
+		49BCD51117E0E9C100DBF30E /* CALayer+AnimationCompletion.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BCD51017E0E9C100DBF30E /* CALayer+AnimationCompletion.m */; };
+		49BCD51617E0EAB700DBF30E /* SDSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BCD51317E0EAB700DBF30E /* SDSAppDelegate.m */; };
+		49BCD51717E0EAB700DBF30E /* SDSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BCD51517E0EAB700DBF30E /* SDSViewController.m */; };
+		49BCD51A17E0EACF00DBF30E /* SDSViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49BCD51817E0EACF00DBF30E /* SDSViewController_iPhone.xib */; };
+		49BCD52117E0EAEC00DBF30E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49BCD51B17E0EAEC00DBF30E /* Default-568h@2x.png */; };
+		49BCD52217E0EAEC00DBF30E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 49BCD51C17E0EAEC00DBF30E /* Default.png */; };
+		49BCD52317E0EAEC00DBF30E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49BCD51D17E0EAEC00DBF30E /* Default@2x.png */; };
+		49BCD52417E0EAEC00DBF30E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BCD51E17E0EAEC00DBF30E /* main.m */; };
+		49BCD52517E0EAEC00DBF30E /* SDSCardsFireProgressDemo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49BCD51F17E0EAEC00DBF30E /* SDSCardsFireProgressDemo-Info.plist */; };
+		49BCD52817E0EB0400DBF30E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49BCD52617E0EB0400DBF30E /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49BCD4B617E0DBD300DBF30E /* SDSCardsFireProgressDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDSCardsFireProgressDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49BCD4B917E0DBD300DBF30E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		49BCD4BB17E0DBD300DBF30E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49BCD4BD17E0DBD300DBF30E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		49BCD4DF17E0DC0C00DBF30E /* CALayer+SDSLayerByName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+SDSLayerByName.h"; sourceTree = "<group>"; };
+		49BCD4E017E0DC0C00DBF30E /* CALayer+SDSLayerByName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+SDSLayerByName.m"; sourceTree = "<group>"; };
+		49BCD4E217E0DC2A00DBF30E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		49BCD50617E0E77F00DBF30E /* image1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image1@2x.png"; sourceTree = SOURCE_ROOT; };
+		49BCD50717E0E77F00DBF30E /* image2Red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image2Red@2x.png"; sourceTree = SOURCE_ROOT; };
+		49BCD50817E0E77F00DBF30E /* image3Yellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image3Yellow@2x.png"; sourceTree = SOURCE_ROOT; };
+		49BCD50C17E0E98C00DBF30E /* SDSCardsFireProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSCardsFireProgressView.h; sourceTree = "<group>"; };
+		49BCD50D17E0E98C00DBF30E /* SDSCardsFireProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSCardsFireProgressView.m; sourceTree = "<group>"; };
+		49BCD50F17E0E9C100DBF30E /* CALayer+AnimationCompletion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+AnimationCompletion.h"; sourceTree = "<group>"; };
+		49BCD51017E0E9C100DBF30E /* CALayer+AnimationCompletion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+AnimationCompletion.m"; sourceTree = "<group>"; };
+		49BCD51217E0EAB700DBF30E /* SDSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDSAppDelegate.h; path = SDSCardsFireProgressDemo/SDSAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		49BCD51317E0EAB700DBF30E /* SDSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDSAppDelegate.m; path = SDSCardsFireProgressDemo/SDSAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		49BCD51417E0EAB700DBF30E /* SDSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDSViewController.h; path = SDSCardsFireProgressDemo/SDSViewController.h; sourceTree = SOURCE_ROOT; };
+		49BCD51517E0EAB700DBF30E /* SDSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDSViewController.m; path = SDSCardsFireProgressDemo/SDSViewController.m; sourceTree = SOURCE_ROOT; };
+		49BCD51917E0EACF00DBF30E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = SDSCardsFireProgressDemo/en.lproj/SDSViewController_iPhone.xib; sourceTree = SOURCE_ROOT; };
+		49BCD51B17E0EAEC00DBF30E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "SDSCardsFireProgressDemo/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		49BCD51C17E0EAEC00DBF30E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = SDSCardsFireProgressDemo/Default.png; sourceTree = SOURCE_ROOT; };
+		49BCD51D17E0EAEC00DBF30E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "SDSCardsFireProgressDemo/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		49BCD51E17E0EAEC00DBF30E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SDSCardsFireProgressDemo/main.m; sourceTree = SOURCE_ROOT; };
+		49BCD51F17E0EAEC00DBF30E /* SDSCardsFireProgressDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SDSCardsFireProgressDemo-Info.plist"; path = "SDSCardsFireProgressDemo/SDSCardsFireProgressDemo-Info.plist"; sourceTree = SOURCE_ROOT; };
+		49BCD52017E0EAEC00DBF30E /* SDSCardsFireProgressDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SDSCardsFireProgressDemo-Prefix.pch"; path = "SDSCardsFireProgressDemo/SDSCardsFireProgressDemo-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		49BCD52717E0EB0400DBF30E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = SDSCardsFireProgressDemo/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49BCD4B317E0DBD300DBF30E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BCD4E317E0DC2A00DBF30E /* QuartzCore.framework in Frameworks */,
+				49BCD4BA17E0DBD300DBF30E /* UIKit.framework in Frameworks */,
+				49BCD4BC17E0DBD300DBF30E /* Foundation.framework in Frameworks */,
+				49BCD4BE17E0DBD300DBF30E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49BCD4AD17E0DBD300DBF30E = {
+			isa = PBXGroup;
+			children = (
+				49BCD4E217E0DC2A00DBF30E /* QuartzCore.framework */,
+				49BCD4DF17E0DC0C00DBF30E /* CALayer+SDSLayerByName.h */,
+				49BCD4E017E0DC0C00DBF30E /* CALayer+SDSLayerByName.m */,
+				49BCD50F17E0E9C100DBF30E /* CALayer+AnimationCompletion.h */,
+				49BCD51017E0E9C100DBF30E /* CALayer+AnimationCompletion.m */,
+				49BCD50C17E0E98C00DBF30E /* SDSCardsFireProgressView.h */,
+				49BCD50D17E0E98C00DBF30E /* SDSCardsFireProgressView.m */,
+				49BCD4BF17E0DBD300DBF30E /* SDSCardsFireProgressDemo */,
+				49BCD4B817E0DBD300DBF30E /* Frameworks */,
+				49BCD4B717E0DBD300DBF30E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49BCD4B717E0DBD300DBF30E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49BCD4B617E0DBD300DBF30E /* SDSCardsFireProgressDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49BCD4B817E0DBD300DBF30E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49BCD4B917E0DBD300DBF30E /* UIKit.framework */,
+				49BCD4BB17E0DBD300DBF30E /* Foundation.framework */,
+				49BCD4BD17E0DBD300DBF30E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49BCD4BF17E0DBD300DBF30E /* SDSCardsFireProgressDemo */ = {
+			isa = PBXGroup;
+			children = (
+				49BCD51217E0EAB700DBF30E /* SDSAppDelegate.h */,
+				49BCD51317E0EAB700DBF30E /* SDSAppDelegate.m */,
+				49BCD51417E0EAB700DBF30E /* SDSViewController.h */,
+				49BCD51517E0EAB700DBF30E /* SDSViewController.m */,
+				49BCD51817E0EACF00DBF30E /* SDSViewController_iPhone.xib */,
+				49BCD4C017E0DBD300DBF30E /* Supporting Files */,
+			);
+			name = SDSCardsFireProgressDemo;
+			path = SDSLayerByNameDemo;
+			sourceTree = "<group>";
+		};
+		49BCD4C017E0DBD300DBF30E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49BCD52617E0EB0400DBF30E /* InfoPlist.strings */,
+				49BCD51B17E0EAEC00DBF30E /* Default-568h@2x.png */,
+				49BCD51C17E0EAEC00DBF30E /* Default.png */,
+				49BCD51D17E0EAEC00DBF30E /* Default@2x.png */,
+				49BCD51E17E0EAEC00DBF30E /* main.m */,
+				49BCD51F17E0EAEC00DBF30E /* SDSCardsFireProgressDemo-Info.plist */,
+				49BCD52017E0EAEC00DBF30E /* SDSCardsFireProgressDemo-Prefix.pch */,
+				49BCD50617E0E77F00DBF30E /* image1@2x.png */,
+				49BCD50717E0E77F00DBF30E /* image2Red@2x.png */,
+				49BCD50817E0E77F00DBF30E /* image3Yellow@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49BCD4B517E0DBD300DBF30E /* SDSCardsFireProgressDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49BCD4DC17E0DBD300DBF30E /* Build configuration list for PBXNativeTarget "SDSCardsFireProgressDemo" */;
+			buildPhases = (
+				49BCD4B217E0DBD300DBF30E /* Sources */,
+				49BCD4B317E0DBD300DBF30E /* Frameworks */,
+				49BCD4B417E0DBD300DBF30E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDSCardsFireProgressDemo;
+			productName = SDSLayerByNameDemo;
+			productReference = 49BCD4B617E0DBD300DBF30E /* SDSCardsFireProgressDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49BCD4AE17E0DBD300DBF30E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SDS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Sergio De Simone, Freescapes Labs";
+			};
+			buildConfigurationList = 49BCD4B117E0DBD300DBF30E /* Build configuration list for PBXProject "SDSCardsFireProgressDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49BCD4AD17E0DBD300DBF30E;
+			productRefGroup = 49BCD4B717E0DBD300DBF30E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49BCD4B517E0DBD300DBF30E /* SDSCardsFireProgressDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49BCD4B417E0DBD300DBF30E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BCD50917E0E77F00DBF30E /* image1@2x.png in Resources */,
+				49BCD50A17E0E77F00DBF30E /* image2Red@2x.png in Resources */,
+				49BCD50B17E0E77F00DBF30E /* image3Yellow@2x.png in Resources */,
+				49BCD51A17E0EACF00DBF30E /* SDSViewController_iPhone.xib in Resources */,
+				49BCD52117E0EAEC00DBF30E /* Default-568h@2x.png in Resources */,
+				49BCD52217E0EAEC00DBF30E /* Default.png in Resources */,
+				49BCD52317E0EAEC00DBF30E /* Default@2x.png in Resources */,
+				49BCD52517E0EAEC00DBF30E /* SDSCardsFireProgressDemo-Info.plist in Resources */,
+				49BCD52817E0EB0400DBF30E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49BCD4B217E0DBD300DBF30E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BCD4E117E0DC0C00DBF30E /* CALayer+SDSLayerByName.m in Sources */,
+				49BCD50E17E0E98C00DBF30E /* SDSCardsFireProgressView.m in Sources */,
+				49BCD51117E0E9C100DBF30E /* CALayer+AnimationCompletion.m in Sources */,
+				49BCD51617E0EAB700DBF30E /* SDSAppDelegate.m in Sources */,
+				49BCD51717E0EAB700DBF30E /* SDSViewController.m in Sources */,
+				49BCD52417E0EAEC00DBF30E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49BCD51817E0EACF00DBF30E /* SDSViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49BCD51917E0EACF00DBF30E /* en */,
+			);
+			name = SDSViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		49BCD52617E0EB0400DBF30E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49BCD52717E0EB0400DBF30E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49BCD4DA17E0DBD300DBF30E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49BCD4DB17E0DBD300DBF30E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49BCD4DD17E0DBD300DBF30E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDSCardsFireProgressDemo/SDSCardsFireProgressDemo-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/SDSCardsFireProgressDemo/SDSCardsFireProgressDemo-Info.plist";
+				PRODUCT_NAME = SDSCardsFireProgressDemo;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		49BCD4DE17E0DBD300DBF30E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDSCardsFireProgressDemo/SDSCardsFireProgressDemo-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/SDSCardsFireProgressDemo/SDSCardsFireProgressDemo-Info.plist";
+				PRODUCT_NAME = SDSCardsFireProgressDemo;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49BCD4B117E0DBD300DBF30E /* Build configuration list for PBXProject "SDSCardsFireProgressDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49BCD4DA17E0DBD300DBF30E /* Debug */,
+				49BCD4DB17E0DBD300DBF30E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49BCD4DC17E0DBD300DBF30E /* Build configuration list for PBXNativeTarget "SDSCardsFireProgressDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49BCD4DD17E0DBD300DBF30E /* Debug */,
+				49BCD4DE17E0DBD300DBF30E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49BCD4AE17E0DBD300DBF30E /* Project object */;
+}
