@@ -9,3 +9,6 @@ Example of use:
     self.progressView.center = self.view.center;
     [self.view addSubview:self.progressView];
     [self.progressView start];
+
+
+![alt tag](https://raw.github.com/sdesimone/SDSCardsFireProgress/master/preview.png)
