@@ -11,4 +11,4 @@ Example of use:
     [self.progressView start];
 
 
-![alt tag](https://raw.github.com/sdesimone/SDSCardsFireProgress/master/preview.png)
+![alt tag](https://raw.github.com/sdesimone/SDSCardsFireProgress/preview.png)
