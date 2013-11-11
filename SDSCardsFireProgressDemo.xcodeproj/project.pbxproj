@@ -72,16 +72,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		49BCD4AD17E0DBD300DBF30E = {
+		49B06654183156B4002AF691 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				49BCD4E217E0DC2A00DBF30E /* QuartzCore.framework */,
 				49BCD4DF17E0DC0C00DBF30E /* CALayer+SDSLayerByName.h */,
 				49BCD4E017E0DC0C00DBF30E /* CALayer+SDSLayerByName.m */,
 				49BCD50F17E0E9C100DBF30E /* CALayer+AnimationCompletion.h */,
 				49BCD51017E0E9C100DBF30E /* CALayer+AnimationCompletion.m */,
 				49BCD50C17E0E98C00DBF30E /* SDSCardsFireProgressView.h */,
 				49BCD50D17E0E98C00DBF30E /* SDSCardsFireProgressView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		49BCD4AD17E0DBD300DBF30E = {
+			isa = PBXGroup;
+			children = (
+				49B06654183156B4002AF691 /* Classes */,
 				49BCD4BF17E0DBD300DBF30E /* SDSCardsFireProgressDemo */,
 				49BCD4B817E0DBD300DBF30E /* Frameworks */,
 				49BCD4B717E0DBD300DBF30E /* Products */,
@@ -99,6 +106,7 @@
 		49BCD4B817E0DBD300DBF30E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				49BCD4E217E0DC2A00DBF30E /* QuartzCore.framework */,
 				49BCD4B917E0DBD300DBF30E /* UIKit.framework */,
 				49BCD4BB17E0DBD300DBF30E /* Foundation.framework */,
 				49BCD4BD17E0DBD300DBF30E /* CoreGraphics.framework */,
