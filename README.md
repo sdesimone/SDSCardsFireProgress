@@ -1,7 +1,13 @@
 SDSCardsFireProgress
 ==============
 
-A UIView derived class implementing an animated progress indicator like the one used in AppsFire.
+A progress indicator inspired by AppsFire progress animation. That is:
+
+ - 3 "cards" evenly spaced around a half-circle;
+ - at each step in your progress, the set of card will rotate around the circle;
+ - nice part is: each card has its own velocity, so they will start close to one another, then they will set a bit apart, and finally they will get back to the original relative distance.
+
+Have a look at the demo to see it in action!
 
 Example of use:
 
