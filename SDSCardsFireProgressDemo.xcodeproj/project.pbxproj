@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		492C7C692FC34BD7003F6F85 /* SDSCardsFireProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 492C7C682FC34BD7003F6F85 /* SDSCardsFireProgressView.m */; };
+		492C7C6A2FC34BD7003F6F85 /* CALayer+AnimationCompletion.m in Sources */ = {isa = PBXBuildFile; fileRef = 492C7C642FC34BD7003F6F85 /* CALayer+AnimationCompletion.m */; };
+		492C7C6B2FC34BD7003F6F85 /* CALayer+SDSLayerByName.m in Sources */ = {isa = PBXBuildFile; fileRef = 492C7C662FC34BD7003F6F85 /* CALayer+SDSLayerByName.m */; };
+		492C7C762FC34CAA003F6F85 /* image1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 492C7C722FC34CAA003F6F85 /* image1@2x.png */; };
+		492C7C772FC34CAA003F6F85 /* image2Red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 492C7C732FC34CAA003F6F85 /* image2Red@2x.png */; };
+		492C7C782FC34CAA003F6F85 /* image3Yellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 492C7C742FC34CAA003F6F85 /* image3Yellow@2x.png */; };
 		49BCD4BA17E0DBD300DBF30E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BCD4B917E0DBD300DBF30E /* UIKit.framework */; };
 		49BCD4BC17E0DBD300DBF30E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BCD4BB17E0DBD300DBF30E /* Foundation.framework */; };
 		49BCD4BE17E0DBD300DBF30E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BCD4BD17E0DBD300DBF30E /* CoreGraphics.framework */; };
-		49BCD4E117E0DC0C00DBF30E /* CALayer+SDSLayerByName.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BCD4E017E0DC0C00DBF30E /* CALayer+SDSLayerByName.m */; };
 		49BCD4E317E0DC2A00DBF30E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BCD4E217E0DC2A00DBF30E /* QuartzCore.framework */; };
-		49BCD50917E0E77F00DBF30E /* image1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49BCD50617E0E77F00DBF30E /* image1@2x.png */; };
-		49BCD50A17E0E77F00DBF30E /* image2Red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49BCD50717E0E77F00DBF30E /* image2Red@2x.png */; };
-		49BCD50B17E0E77F00DBF30E /* image3Yellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49BCD50817E0E77F00DBF30E /* image3Yellow@2x.png */; };
-		49BCD50E17E0E98C00DBF30E /* SDSCardsFireProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BCD50D17E0E98C00DBF30E /* SDSCardsFireProgressView.m */; };
-		49BCD51117E0E9C100DBF30E /* CALayer+AnimationCompletion.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BCD51017E0E9C100DBF30E /* CALayer+AnimationCompletion.m */; };
 		49BCD51617E0EAB700DBF30E /* SDSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BCD51317E0EAB700DBF30E /* SDSAppDelegate.m */; };
 		49BCD51717E0EAB700DBF30E /* SDSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BCD51517E0EAB700DBF30E /* SDSViewController.m */; };
 		49BCD51A17E0EACF00DBF30E /* SDSViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49BCD51817E0EACF00DBF30E /* SDSViewController_iPhone.xib */; };
@@ -29,20 +29,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		492C7C632FC34BD7003F6F85 /* CALayer+AnimationCompletion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CALayer+AnimationCompletion.h"; path = "lib/CALayer+AnimationCompletion.h"; sourceTree = "<group>"; };
+		492C7C642FC34BD7003F6F85 /* CALayer+AnimationCompletion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CALayer+AnimationCompletion.m"; path = "lib/CALayer+AnimationCompletion.m"; sourceTree = "<group>"; };
+		492C7C652FC34BD7003F6F85 /* CALayer+SDSLayerByName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CALayer+SDSLayerByName.h"; path = "lib/CALayer+SDSLayerByName.h"; sourceTree = "<group>"; };
+		492C7C662FC34BD7003F6F85 /* CALayer+SDSLayerByName.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CALayer+SDSLayerByName.m"; path = "lib/CALayer+SDSLayerByName.m"; sourceTree = "<group>"; };
+		492C7C672FC34BD7003F6F85 /* SDSCardsFireProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDSCardsFireProgressView.h; path = lib/SDSCardsFireProgressView.h; sourceTree = "<group>"; };
+		492C7C682FC34BD7003F6F85 /* SDSCardsFireProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SDSCardsFireProgressView.m; path = lib/SDSCardsFireProgressView.m; sourceTree = "<group>"; };
+		492C7C722FC34CAA003F6F85 /* image1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image1@2x.png"; sourceTree = "<group>"; };
+		492C7C732FC34CAA003F6F85 /* image2Red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image2Red@2x.png"; sourceTree = "<group>"; };
+		492C7C742FC34CAA003F6F85 /* image3Yellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image3Yellow@2x.png"; sourceTree = "<group>"; };
 		49BCD4B617E0DBD300DBF30E /* SDSCardsFireProgressDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDSCardsFireProgressDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49BCD4B917E0DBD300DBF30E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		49BCD4BB17E0DBD300DBF30E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		49BCD4BD17E0DBD300DBF30E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		49BCD4DF17E0DC0C00DBF30E /* CALayer+SDSLayerByName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+SDSLayerByName.h"; sourceTree = "<group>"; };
-		49BCD4E017E0DC0C00DBF30E /* CALayer+SDSLayerByName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+SDSLayerByName.m"; sourceTree = "<group>"; };
 		49BCD4E217E0DC2A00DBF30E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		49BCD50617E0E77F00DBF30E /* image1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image1@2x.png"; sourceTree = SOURCE_ROOT; };
-		49BCD50717E0E77F00DBF30E /* image2Red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image2Red@2x.png"; sourceTree = SOURCE_ROOT; };
-		49BCD50817E0E77F00DBF30E /* image3Yellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image3Yellow@2x.png"; sourceTree = SOURCE_ROOT; };
-		49BCD50C17E0E98C00DBF30E /* SDSCardsFireProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSCardsFireProgressView.h; sourceTree = "<group>"; };
-		49BCD50D17E0E98C00DBF30E /* SDSCardsFireProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSCardsFireProgressView.m; sourceTree = "<group>"; };
-		49BCD50F17E0E9C100DBF30E /* CALayer+AnimationCompletion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+AnimationCompletion.h"; sourceTree = "<group>"; };
-		49BCD51017E0E9C100DBF30E /* CALayer+AnimationCompletion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+AnimationCompletion.m"; sourceTree = "<group>"; };
 		49BCD51217E0EAB700DBF30E /* SDSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDSAppDelegate.h; path = SDSCardsFireProgressDemo/SDSAppDelegate.h; sourceTree = SOURCE_ROOT; };
 		49BCD51317E0EAB700DBF30E /* SDSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDSAppDelegate.m; path = SDSCardsFireProgressDemo/SDSAppDelegate.m; sourceTree = SOURCE_ROOT; };
 		49BCD51417E0EAB700DBF30E /* SDSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDSViewController.h; path = SDSCardsFireProgressDemo/SDSViewController.h; sourceTree = SOURCE_ROOT; };
@@ -72,23 +72,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		49B06654183156B4002AF691 /* Classes */ = {
+		492C7C752FC34CAA003F6F85 /* resources */ = {
 			isa = PBXGroup;
 			children = (
-				49BCD4DF17E0DC0C00DBF30E /* CALayer+SDSLayerByName.h */,
-				49BCD4E017E0DC0C00DBF30E /* CALayer+SDSLayerByName.m */,
-				49BCD50F17E0E9C100DBF30E /* CALayer+AnimationCompletion.h */,
-				49BCD51017E0E9C100DBF30E /* CALayer+AnimationCompletion.m */,
-				49BCD50C17E0E98C00DBF30E /* SDSCardsFireProgressView.h */,
-				49BCD50D17E0E98C00DBF30E /* SDSCardsFireProgressView.m */,
+				492C7C722FC34CAA003F6F85 /* image1@2x.png */,
+				492C7C732FC34CAA003F6F85 /* image2Red@2x.png */,
+				492C7C742FC34CAA003F6F85 /* image3Yellow@2x.png */,
 			);
-			name = Classes;
+			path = resources;
+			sourceTree = "<group>";
+		};
+		49B06654183156B4002AF691 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				492C7C632FC34BD7003F6F85 /* CALayer+AnimationCompletion.h */,
+				492C7C642FC34BD7003F6F85 /* CALayer+AnimationCompletion.m */,
+				492C7C652FC34BD7003F6F85 /* CALayer+SDSLayerByName.h */,
+				492C7C662FC34BD7003F6F85 /* CALayer+SDSLayerByName.m */,
+				492C7C672FC34BD7003F6F85 /* SDSCardsFireProgressView.h */,
+				492C7C682FC34BD7003F6F85 /* SDSCardsFireProgressView.m */,
+			);
+			name = lib;
 			sourceTree = "<group>";
 		};
 		49BCD4AD17E0DBD300DBF30E = {
 			isa = PBXGroup;
 			children = (
-				49B06654183156B4002AF691 /* Classes */,
+				492C7C752FC34CAA003F6F85 /* resources */,
+				49B06654183156B4002AF691 /* lib */,
 				49BCD4BF17E0DBD300DBF30E /* SDSCardsFireProgressDemo */,
 				49BCD4B817E0DBD300DBF30E /* Frameworks */,
 				49BCD4B717E0DBD300DBF30E /* Products */,
@@ -138,9 +149,6 @@
 				49BCD51E17E0EAEC00DBF30E /* main.m */,
 				49BCD51F17E0EAEC00DBF30E /* SDSCardsFireProgressDemo-Info.plist */,
 				49BCD52017E0EAEC00DBF30E /* SDSCardsFireProgressDemo-Prefix.pch */,
-				49BCD50617E0E77F00DBF30E /* image1@2x.png */,
-				49BCD50717E0E77F00DBF30E /* image2Red@2x.png */,
-				49BCD50817E0E77F00DBF30E /* image3Yellow@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -198,14 +206,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49BCD50917E0E77F00DBF30E /* image1@2x.png in Resources */,
-				49BCD50A17E0E77F00DBF30E /* image2Red@2x.png in Resources */,
-				49BCD50B17E0E77F00DBF30E /* image3Yellow@2x.png in Resources */,
 				49BCD51A17E0EACF00DBF30E /* SDSViewController_iPhone.xib in Resources */,
 				49BCD52117E0EAEC00DBF30E /* Default-568h@2x.png in Resources */,
 				49BCD52217E0EAEC00DBF30E /* Default.png in Resources */,
 				49BCD52317E0EAEC00DBF30E /* Default@2x.png in Resources */,
 				49BCD52517E0EAEC00DBF30E /* SDSCardsFireProgressDemo-Info.plist in Resources */,
+				492C7C762FC34CAA003F6F85 /* image1@2x.png in Resources */,
+				492C7C772FC34CAA003F6F85 /* image2Red@2x.png in Resources */,
+				492C7C782FC34CAA003F6F85 /* image3Yellow@2x.png in Resources */,
 				49BCD52817E0EB0400DBF30E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,11 +225,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49BCD4E117E0DC0C00DBF30E /* CALayer+SDSLayerByName.m in Sources */,
-				49BCD50E17E0E98C00DBF30E /* SDSCardsFireProgressView.m in Sources */,
-				49BCD51117E0E9C100DBF30E /* CALayer+AnimationCompletion.m in Sources */,
 				49BCD51617E0EAB700DBF30E /* SDSAppDelegate.m in Sources */,
 				49BCD51717E0EAB700DBF30E /* SDSViewController.m in Sources */,
+				492C7C692FC34BD7003F6F85 /* SDSCardsFireProgressView.m in Sources */,
+				492C7C6A2FC34BD7003F6F85 /* CALayer+AnimationCompletion.m in Sources */,
+				492C7C6B2FC34BD7003F6F85 /* CALayer+SDSLayerByName.m in Sources */,
 				49BCD52417E0EAEC00DBF30E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

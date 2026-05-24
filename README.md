@@ -16,5 +16,5 @@ Example of use:
     [self.view addSubview:self.progressView];
     [self.progressView start];
 
+<img src="preview.gif" alt="Your Alt Text" width="320">
 
-![alt tag](https://raw.github.com/sdesimone/SDSCardsFireProgress/master/preview.png)
