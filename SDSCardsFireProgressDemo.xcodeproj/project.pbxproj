@@ -180,6 +180,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 49BCD4AD17E0DBD300DBF30E;
@@ -309,6 +310,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SDSCardsFireProgressDemo/SDSCardsFireProgressDemo-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/SDSCardsFireProgressDemo/SDSCardsFireProgressDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
 				PRODUCT_NAME = SDSCardsFireProgressDemo;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -321,6 +323,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SDSCardsFireProgressDemo/SDSCardsFireProgressDemo-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/SDSCardsFireProgressDemo/SDSCardsFireProgressDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
 				PRODUCT_NAME = SDSCardsFireProgressDemo;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;

@@ -16,6 +16,7 @@
 
 - (void)start;
 - (void)stop;
+- (void)stop:(void(^)(void))block;
 
 @end
 

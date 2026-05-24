@@ -52,18 +52,20 @@
 
 /////////////////////////////////////////////////////////////////////////////////////////
 - (void)animate:(id)sender {
-    
+    if (sender) {
+        NSLog(@"");
+    }
     for (NSString* name in self.imgNames) {
         CALayer* layer = [self.layer layerByName:name];
         [layer addAnimation:[self animationForIndex:[self.imgNames indexOfObject:name]]
                      forKey:@"layerRotation"
                  completion:^(BOOL b) {
-                     double rotation = [[layer valueForKeyPath:@"transform.rotation.z"] floatValue];
-                     layer.transform = CATransform3DRotate(CATransform3DIdentity, rotation - M_PI*2, 0, 0, 1.0);
-                 }];
+             double rotation = [[layer valueForKeyPath:@"transform.rotation.z"] floatValue];
+             layer.transform = CATransform3DRotate(CATransform3DIdentity, rotation - M_PI*2, 0, 0, 1.0);
+         }];
     }
     if (!self.stopped) {
-        float delay = sender?0:kAnimationDuration * 1.33;
+        float delay = sender ? 0 : kAnimationDuration * 1.0;
         [self performSelector:@selector(animate:) withObject:nil afterDelay:delay];
     }
 }
@@ -76,7 +78,7 @@
     imgLayer.bounds = (CGRect){CGPointZero, img.size};
 
     imgLayer.contents = (id)img.CGImage;
-    imgLayer.position = self.center;
+//    imgLayer.position = self.center;
     imgLayer.name = imgName;
     
     [self.layer addSublayer:imgLayer];
@@ -84,16 +86,34 @@
 
 /////////////////////////////////////////////////////////////////////////////////////////
 - (void)start {
-    
-    self.stopped = NO;
-    [self performSelector:@selector(animate:) withObject:self afterDelay:0.0];
+    if (self.stopped) {
+        self.stopped = NO;
+        [self performSelector:@selector(animate:) withObject:self afterDelay:0.0];
+    }
+}
+
+- (void)stop {
+    [self stop:^{}];
 }
 
 /////////////////////////////////////////////////////////////////////////////////////////
-- (void)stop {
-
-    self.stopped = YES;
-    [NSObject cancelPreviousPerformRequestsWithTarget:self];
+- (void)stop:(void(^)(void))block {
+    if (!self.stopped) {
+        self.stopped = YES;
+        [NSObject cancelPreviousPerformRequestsWithTarget:self];
+        [self.layer removeAllAnimations];
+        
+        [UIView animateWithDuration:kAnimationDuration
+                              delay:0.0
+                            options:UIViewAnimationOptionCurveEaseInOut
+                         animations:^{
+            self.alpha = 0.0;
+        }
+                         completion:^(BOOL finished) {
+            if (finished && block)
+                block();
+        }];
+    }
 }
 
 /////////////////////////////////////////////////////////////////////////////////////////
@@ -106,6 +126,9 @@
         self.imgNames = imageNames;
         for (NSString* name in [self.imgNames reverseObjectEnumerator])
             [self addImage:name];
+        
+        self.stopped = YES;
+        self.backgroundColor = [UIColor clearColor];
     }
     return self;
 }
@@ -113,7 +136,9 @@
 /////////////////////////////////////////////////////////////////////////////////////////
 - (void)dealloc {
     
-    [self stop];
+    if (!self.stopped) {
+        [self stop:^{}];
+    }
     self.imgNames = nil;
     [super dealloc];
 }
